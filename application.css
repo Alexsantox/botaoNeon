@@ -1,0 +1,105 @@
+body { /*()*/
+  width: 100%; /*(Tamanho da página em que o texto será exibido)*/
+  max-width: 800px; /* (Tamanho máximo da página para caso seja aberto em uma tela maior o site não fique distorcido)*/
+  margin: auto; /*(Tag para centralizar os elementos)*/
+  background: url(img/fundo-blue.jpeg) center; /*Imagem de fundo (centralizada)*/
+
+  font-family: Fjalla One; /*(Estilo da fonte escolhida, a mesma está localizado no Google Fonts)*/
+  line-height: 1.5;
+  color: white; /*Cor das letras*/
+}
+
+main {
+  background: #1a7b998a; /*(Fundo transparente, variante da cor retirada no "Inspecionar" da página do projeto)*/
+  padding: 10px 40px; /* (Tamanho das bordas comprimento X altura) */
+  margin-top: px; /*(Distancia do topo)*/
+  border-radius: 10px; /*(Arredondar a borda)*/
+  margin-top: 10px; /*(Altura do fundo transparente)*/
+
+}
+.logo, .band-name, .headline { /*(Tags ao lado da outra acompanhado de vírgula adquirem os mesmos resultados)*/
+  margin: 0;
+  text-align: center; /*(Centralizar elementos)*/
+  font-weight: 20%px;
+}
+
+.concerts {
+    margin: 30px 0; /*Distancia do elemento de cima (Altura x Esquerda/direita)*/
+    text-align: center; /*Alinhamento do texto*/
+    width: 100%;
+    font-size: 140%; /*Tamanho texto*/
+    font-weight:normal; /*Texto negrito*/
+}
+
+.history {
+  text-align: center; /*Centralizando texto*/
+  font-size: 98%; /*Tamanho*/
+  font-style:inherit; /*Estilo da fonte do texto*/
+  width: 100%;
+}
+.logo-insta {
+    text-align: center;
+    margin-top: -50px;
+    
+}
+
+/*Caixa personalizada*/
+*{ 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        align-items: center;
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .main {
+        height: 100vh;
+        align-items: center;
+      }
+      .box {
+        width: 730px;
+        height: 450px;
+        background: rgba(1, 2, 2, 0.411);
+        border-radius: 20px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.363);
+        align-items: center;
+      }
+      li{
+        width: 300px;
+        padding: 15px;
+        color: rgb(228, 227, 227);
+        background: #23242575;
+        list-style: none;
+        margin: 12px;
+        /*cursor: pointer;*/
+        transition: all .4s;
+        position: relative;
+        border-radius: 5px;
+
+      }
+      li:hover{
+        transform: translate(20px);
+      }
+      li::before, li::after{
+        content: "";
+        position: absolute;
+        background: #23242570;
+        transition: all .4s;
+      }
+      li::before{
+        width: 20px;
+        height: 100%;
+        top: 0;left: -30px;
+      }
+      li::after{
+        width: 100%;
+        height: 2px;
+        bottom: 0;left: 0;
+      }
+      li:hover::before, li:hover::after{
+        background: #00f7ff;box-shadow: 0 0 10px aqua;
+      }
+      /*Fim caixa personalizada*/
