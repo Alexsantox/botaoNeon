@@ -1,4 +1,4 @@
-![IMG](https://github.com/Alexsantox/botaoNeon/blob/main/Foguete%20viajando%20GIF.gif)
+![IMG](https://github.com/Alexsantox/botaoNeon/blob/main/BlueTV%20Oficial%20%E2%84%A2%20GIF.gif)
 
 
 ### Uma página desenvolvida para modular os botões neon com sombra e movimento.
